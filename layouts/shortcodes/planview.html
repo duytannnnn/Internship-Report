@@ -1,0 +1,126 @@
+{{/*
+  planview shortcode
+  Renders an interactive top-down "plan view" diagram of the current section's
+  child pages (used as Figure 1 on the Workshop overview page).
+
+  Each node carries the same data-nav-id="{RelPermalink}" attribute that the
+  theme's sidebar links use (see themes/hugo-theme-learn/layouts/partials/menu.html
+  and static/js/learn.js). That JS already does two things globally, on every page:
+    1. On load: sessionStorage.setItem(currentPageURL, 1)
+    2. On load: loops sessionStorage and adds class "visited" to every element
+       whose data-nav-id matches a stored (visited) URL.
+  And the existing "Clear History" control (data-clear-history-toggle) simply
+  runs sessionStorage.clear() + location.reload().
+
+  Because our nodes plug into that exact same attribute/class contract, no new
+  JavaScript is needed here: visiting a step lights up its node, and the
+  existing Clear History button already wipes these markings along with the
+  sidebar's checkmarks (same click, same reload, same sessionStorage).
+*/}}
+
+{{ $lang := .Page.Site.Language.Lang }}
+{{ $caption := "Figure 1: System Architecture — Plan View" }}
+{{ $hint := "Click a step to open it. Steps light up here once visited — the sidebar's \"Clear History\" link resets these too." }}
+{{ if eq $lang "vi" }}
+  {{ $caption = "Hình 1: Kiến trúc hệ thống — Sơ đồ tổng quan" }}
+  {{ $hint = "Nhấp vào một bước để mở trang tương ứng. Các bước sẽ được đánh dấu khi đã xem — liên kết \"Clear History\" ở sidebar sẽ xoá các đánh dấu này." }}
+{{ end }}
+
+<div class="planview-wrap">
+  <p class="planview-caption">{{ $caption }}</p>
+  <div class="planview-flow">
+    {{ range $i, $p := .Page.Pages }}
+      {{ if gt $i 0 }}<div class="planview-arrow" aria-hidden="true">&rsaquo;</div>{{ end }}
+      <a class="planview-node" data-nav-id="{{ $p.RelPermalink }}" href="{{ $p.RelPermalink }}" title="{{ $p.Title }}">
+        <i class="fas fa-check planview-check" aria-hidden="true"></i>
+        <span class="planview-num">{{ add $i 1 }}</span>
+        <span class="planview-label">{{ $p.Title }}</span>
+      </a>
+    {{ end }}
+  </div>
+  <p class="planview-hint">{{ $hint }}</p>
+</div>
+
+<style>
+.planview-wrap { margin: 1.5rem 0 2rem; }
+.planview-caption {
+  font-weight: 700;
+  color: var(--MAIN-TITLES-TEXT-color, #5e5e5e);
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin: 0 0 .75rem;
+}
+.planview-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .35rem;
+}
+.planview-node {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 118px;
+  padding: .85rem .65rem;
+  border: 2px solid #d7dce2;
+  border-radius: 10px;
+  background: #f8f9fb;
+  text-decoration: none !important;
+  color: var(--MAIN-TEXT-color, #323232) !important;
+  transition: border-color .15s ease, background-color .15s ease;
+}
+.planview-node:hover {
+  border-color: var(--MAIN-LINK-color, #1C90F3);
+  background: #eef7fe;
+}
+.planview-num {
+  font-size: .68rem;
+  font-weight: 700;
+  color: #9096a2;
+  margin-bottom: .15rem;
+}
+.planview-label {
+  font-size: .82rem;
+  text-align: center;
+  line-height: 1.25;
+}
+.planview-check {
+  display: none;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--MAIN-LINK-color, #1C90F3);
+  color: #fff !important;
+  font-size: .62rem;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+}
+.planview-node.visited {
+  border-color: var(--MAIN-LINK-color, #1C90F3);
+  background: #eaf5fe;
+}
+.planview-node.visited .planview-check { display: flex; }
+.planview-arrow {
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #c3c9d1;
+  padding: 0 .1rem;
+}
+.planview-hint {
+  margin-top: .6rem;
+  font-size: .78rem;
+  color: #8a8f98;
+  font-style: italic;
+}
+@media (max-width: 700px) {
+  .planview-flow { flex-direction: column; align-items: stretch; }
+  .planview-arrow { align-self: center; transform: rotate(90deg); }
+}
+</style>

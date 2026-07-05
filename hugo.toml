@@ -1,0 +1,30 @@
+baseURL = "/"
+theme = "hugo-theme-learn"
+canonifyURLs = true
+languageCode = "en-us"
+title = "Internship Report"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+  themeVariant = "blue"
+  editURL = ""
+  description = "Internship Report - First Cloud AI Journey"
+  author = "Truong Le Duy Tan"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  titleSeparator = "::"
+  disableLandingPageButton = true
+
+[Languages]
+  [Languages.en]
+  title = "Internship Report"
+  weight = 1
+  languageName = "English"
+
+  [Languages.vi]
+  title = "Báo Cáo Thực Tập"
+  weight = 2
+  languageName = "Tiếng Việt"
