@@ -1,6 +1,6 @@
-baseURL = "/"
+baseURL = "https://duytannnnn.github.io/Internship-Report/"
 theme = "hugo-theme-learn"
-canonifyURLs = true
+canonifyURLs = false
 languageCode = "en-us"
 title = "Internship Report"
 
