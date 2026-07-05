@@ -58,4 +58,4 @@ pre = " <b> 4.1. </b> "
 ### Illustrative image
 
 
-![Policy](/4-Events-Participated/images/23-05-2026.jpg)
+![Policy](/images/23-05-2026.jpg)

@@ -90,4 +90,4 @@ Buổi thi đấu cũng tạo thêm động lực để mình tiếp tục học
 
 vì không có thấy ảnh chụp chung với mọi người nên tôi lấy ảnh đã chụp trên điện thoại
 
-![Competition](/4-Events-Participated/images/20-6-2026.jpg)
+![Competition](/images/20-6-2026.jpg)

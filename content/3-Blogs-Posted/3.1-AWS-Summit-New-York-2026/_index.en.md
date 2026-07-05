@@ -93,4 +93,4 @@ AWS Blog: https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-i
 
 ### Illustrative image
 
-![Policy](/3-Blogs-Posted/images/AWS-Summit-New-York-2026.png)
+![Policy](/images/AWS-Summit-New-York-2026.png)

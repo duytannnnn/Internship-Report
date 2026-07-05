@@ -64,4 +64,4 @@ Một bài học đáng giá khác là yếu tố con người. Qua phần chia 
 ### Hình ảnh minh chứng
 
 
-![Policy](/4-Events-Participated/images/23-05-2026.jpg)
+![Policy](/images/23-05-2026.jpg)
