@@ -17,3 +17,4 @@ The site is bilingual (English / Vietnamese) and organized into 7 sections:
 
 ## Deploying to GitHub Pages
 
+https://duytannnnn.github.io/Internship-Report/
