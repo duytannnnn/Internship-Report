@@ -90,4 +90,4 @@ The event also motivated me to continue learning AWS services, practicing cloud 
 
 Since I do not have a group photo with the other participants, I used a photo that I took with my phone during the event.
 
-![Competition](/images/20-6-2026.jpg)
+![Competition](/images/8/20-6-2026.jpg)

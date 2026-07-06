@@ -723,4 +723,4 @@ The **Serverless AI Invoice Scanner** proposal is suitable for building an autom
 
 
 
-![Policy](/2-Proposal/images/architecture-log.png)
+![Policy](/images/8/architecture-log.png)

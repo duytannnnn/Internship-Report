@@ -723,4 +723,4 @@ Optional GSI:
 
 
 
-![Policy](/2-Proposal/images/architecture-log.png)
+![Policy](/images/8/architecture-log.png)
