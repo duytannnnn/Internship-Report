@@ -45,7 +45,7 @@ https://pwxyscvv7i.execute-api.ap-southeast-1.amazonaws.com/dev/invoice/tags/<In
 
 11. Go to the **Body** tab → Select **raw** → Choose **JSON**.
 
-![Update Invoice Tags](/images/5/5.6/Screenshot_8.png)
+![Update Invoice Tags](/images/5/5.6/008.png)
 
 12. Paste the following **JSON** code into Postman to update invoice categories:
 

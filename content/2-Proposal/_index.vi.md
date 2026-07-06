@@ -721,6 +721,10 @@ Optional GSI:
 - Cập nhật luồng xử lý đúng: API Gateway → Upload Lambda → S3 → Processing Lambda → Textract → OpenAI API → DynamoDB.
 - Bổ sung cleanup và giám sát qua CloudWatch.
 
-
+### Hình ảnh minh họa
 
 ![Policy](/images/8/architecture-log.png)
+
+### Link deploy của project nhóm
+
+https://nguyenminhtinh31204.github.io/Serverless-AI-Invoice-Scanner/

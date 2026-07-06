@@ -87,19 +87,19 @@ Chúng ta sẽ dùng công cụ online [base64-image.de](https://www.base64-imag
 
 6. Chọn mục **Stages**.
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%281%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/012.png)
 
 7. Bấm dấu **"+"** để mở ra đường dẫn đầy đủ.
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%282%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/013.png)
 
 8. Chọn phương thức **POST** và sao chép **Invoke URL**.
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%283%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/014.png)
 
 9. Dán **Invoke URL** vừa sao chép vào trong Postman như sau:
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%284%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/015.png)
 
 10. Chọn tab **Headers**, cấu hình như sau:
 
@@ -107,11 +107,11 @@ Chúng ta sẽ dùng công cụ online [base64-image.de](https://www.base64-imag
 Content-Type: application/json
 ```
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%285%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/016.png)
 
 11. Chọn tab **Body** → chọn **raw** → chọn **JSON**.
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%286%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/017.png)
 
 12. Dán đoạn **JSON** vào Postman:
 
@@ -122,26 +122,26 @@ Content-Type: application/json
 }
 ```
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%287%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/018.png)
 
 13. Dán Base64 đã lưu tạm trong Notepad và viết tên file vào như sau:
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%288%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/019.png)
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%289%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/020.png)
 
 14. Nhấn nút **Send** để xem kết quả.
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%2810%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/021.png)
 
 15. Kết quả trả về thành công như sau:
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%2811%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/022.png)
 
 16. Truy cập vào **S3** → Vào thư mục `uploads/` → Xác nhận file đã được upload.
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%2812%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/023.png)
 
 17. Truy cập vào **DynamoDB** → Chọn **Explore items** → Chọn bảng **InvoiceData**.
 
-![PostInvoiceAPI](/images/5/5.1-testwithpostman/image%2813%29.png)
+![PostInvoiceAPI](/images/5/5.1-testwithpostman/024.png)

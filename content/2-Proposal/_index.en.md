@@ -721,6 +721,10 @@ The **Serverless AI Invoice Scanner** proposal is suitable for building an autom
 
 - Added cleanup and monitoring via CloudWatch.
 
-
+### Illustrative image
 
 ![Policy](/images/8/architecture-log.png)
+
+### Deployment link for the team project
+
+https://nguyenminhtinh31204.github.io/Serverless-AI-Invoice-Scanner/

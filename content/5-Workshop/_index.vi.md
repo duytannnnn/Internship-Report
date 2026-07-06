@@ -19,7 +19,7 @@ Trong project này, bước chuẩn hóa dữ liệu bằng AI sử dụng OpenA
 
 {{< planview >}}
 
-![Architecture Diagram](/images/architecture-log.png)
+![Architecture Diagram](/images/8/architecture-log.png)
 
 ---
 

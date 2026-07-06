@@ -526,7 +526,7 @@ def lambda_handler(event, context):
 
 4.  Nhấn **Save**.
 
-![Click Save](/images/3.lambdafunctions/3.4-fetchinvoicelambda/009-clicksave%20%282%29.png)
+![Click Save](/images/3.lambdafunctions/3.4-fetchinvoicelambda/009-clicksave.png)
 
 ---
 

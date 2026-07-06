@@ -19,7 +19,7 @@ In this project, the AI data normalization step uses the OpenAI API instead of A
 
 {{< planview >}}
 
-![Architecture Diagram](/images/architecture-log.png)
+![Architecture Diagram](/images/8/architecture-log.png)
 
 ---
 

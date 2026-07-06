@@ -9,15 +9,15 @@ pre: " <b> 5.5.7 </b> "
 
 1. Trong Collection **InvoiceGetAPI-Tests**, nhấn dấu **"+"** để tạo request.
 
-![Get Invoices By Name](/images/5/5.7/Screenshot_1.png)
+![Get Invoices By Name](/images/5/5.7/001.png)
 
 2. Đặt tên: `Get Invoices By Name`.
 
-![Get Invoices By Name](/images/5/5.7/Screenshot_2.png)
+![Get Invoices By Name](/images/5/5.7/002.png)
 
 3. Chọn method **GET**.
 
-![Get Invoices By Name](/images/5/5.7/Screenshot_3.png)
+![Get Invoices By Name](/images/5/5.7/003.png)
 
 5. Truy cập API Gateway, chọn API: `GetInvoiceAPI`.
 
@@ -25,15 +25,15 @@ pre: " <b> 5.5.7 </b> "
 
 7. Bấm dấu **“+”** để mở ra đường dẫn đến `/invoice` như dưới đây:
 
-![Get Invoices By Name](/images/5/5.7/Screenshot_4.png)
+![Get Invoices By Name](/images/5/5.7/004.png)
 
 8. Chọn phương thức **GET** và sao chép **Invoke URL**.
 
-![Get Invoices By Name](/images/5/5.7/Screenshot_5.png)
+![Get Invoices By Name](/images/5/5.7/005.png)
 
 9. Dán **Invoke URL** vừa sao chép vào trong Postman như sau:
 
-![Get Invoices By Name](/images/5/5.7/Screenshot_6.png)
+![Get Invoices By Name](/images/5/5.7/006.png)
 
 10. Thêm đoạn dưới đây vào phía sau API endpoint:
 
@@ -43,12 +43,12 @@ pre: " <b> 5.5.7 </b> "
 
 11. Nhập tên khách hàng cần tìm trong hóa đơn.
 
-![Get Invoices By Name](/images/5/5.7/Screenshot_7.png)
+![Get Invoices By Name](/images/5/5.7/007.png)
 
 10. Nhấn nút **Send** để xem kết quả.
 
-![Get Invoices By Name](/images/5/5.7/Screenshot_8.png)
+![Get Invoices By Name](/images/5/5.7/008.png)
 
 11. Kết quả trả về như sau:
 
-![Get Invoices By Name](/images/5/5.7/Screenshot_9.png)
+![Get Invoices By Name](/images/5/5.7/009.png)

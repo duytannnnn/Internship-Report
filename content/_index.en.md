@@ -18,7 +18,7 @@ title: "Internship Report"
 
 **Internship Duration:** 12 weeks
 
-
+![Policy](/images/8/avatar.jpg)
 
 ## Report Sections
 

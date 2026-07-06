@@ -18,7 +18,7 @@ title: "Báo Cáo Thực Tập"
 
 **Thời gian thực tập:** 12 tuần
 
-
+![Policy](/images/8/avatar.jpg)
 
 ## Các phần của báo cáo
 
