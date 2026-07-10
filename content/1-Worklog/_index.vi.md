@@ -6,7 +6,7 @@ weight = 1
 pre = " <b> 1. </b> "
 +++
 
-## 📑 Giới thiệu Tổng quan Worklog
+##  Giới thiệu Tổng quan Worklog
 
 Trong suốt giai đoạn thực hành Lab thuộc chương trình thực tập AWS Cloud Training, em đã tiếp cận, nghiên cứu và triển khai thành công các dịch vụ hạ tầng cốt lõi trên hệ sinh thái điện toán đám mây AWS.
 
@@ -14,7 +14,7 @@ Nhật ký công việc này kéo dài trong **12 tuần** (bám sát toàn bộ
 
 ---
 
-## 📅 Danh mục công việc theo tuần
+##  Danh mục công việc theo tuần
 
 **Tuần 1:** [Tổng quan Cloud & Bảo mật tài khoản AWS IAM](1.1-week1/)
 * Tìm hiểu các mô hình Điện toán đám mây và thiết lập ranh giới bảo mật bằng IAM User, Group, Policy cùng xác thực đa yếu tố (MFA).
@@ -51,7 +51,7 @@ Nhật ký công việc này kéo dài trong **12 tuần** (bám sát toàn bộ
 
 ---
 
-## 📊 Tổng kết tiến độ
+##  Tổng kết tiến độ
 
 * **Tổng thời gian**: 12 Tuần (Hoàn thành 100% chương trình thực tập)
 * **Trọng tâm kỹ thuật**: Cloud Infrastructure, Identity Security, Automated Pipelines, Serverless Architecture, Project Proposal Design & Interactive Tech Workshops.

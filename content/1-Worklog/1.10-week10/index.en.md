@@ -43,7 +43,7 @@ pre = " <b> 1.10. </b> "
 
 ##  Knowledge Acquired
 
-### 🔧 Technical Skills
+###  Technical Skills
 - **AWS Services**: Advanced cloud financial governance tools (AWS Billing, Cost Explorer, AWS Budgets).
 - **Resource Management**: Global resource lifecycle tracking, cross-regional auditing, and decommissioning complex interconnected infrastructures.
 

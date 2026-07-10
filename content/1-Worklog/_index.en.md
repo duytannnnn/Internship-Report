@@ -6,7 +6,7 @@ weight = 1
 pre = " <b> 1. </b> "
 +++
 
-## 📑 Internship Worklog Introduction
+##  Internship Worklog Introduction
 
 During this laboratory phase of the AWS Cloud Training internship program, I have systematically approached, researched, and successfully deployed core infrastructure services on the AWS Cloud ecosystem. 
 
@@ -14,7 +14,7 @@ This comprehensive worklog spans **12 weeks**, covering the entire duration of t
 
 ---
 
-## 📅 Weekly Log Directory
+##  Weekly Log Directory
 
 **Week 1:** [Cloud Fundamentals & AWS IAM Security Essentials](1.1-week1/)
 * Overview of Cloud Computing models and establishing root access boundaries using IAM Users, Groups, and Multi-Factor Authentication (MFA).
@@ -51,7 +51,7 @@ This comprehensive worklog spans **12 weeks**, covering the entire duration of t
 
 ---
 
-## 📊 Summary of Progression
+##  Summary of Progression
 
 * **Total Duration**: 12 Weeks (100% of the internship program completed)
 * **Core Focus Areas**: Cloud Infrastructure, Identity Security, Automated Pipelines, Serverless Architecture, Project Proposal Design & Interactive Tech Workshops.
