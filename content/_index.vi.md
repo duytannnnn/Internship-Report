@@ -12,7 +12,7 @@ title: "Báo Cáo Thực Tập"
 
 **Lớp:** 22DTHH1
 
-**Đơn vị thực tập:** AWS Cloud Training
+**Đơn vị thực tập:** Amazon Web Services Viet Nam
 
 **Vị trí thực tập:** Thực tập sinh AWS Cloud — First Cloud AI Journey
 

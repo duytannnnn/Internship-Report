@@ -12,7 +12,7 @@ title: "Internship Report"
 
 **Class**: 22DTHH1
 
-**Internship Company:** AWS Cloud Training
+**Internship Company:** Amazon Web Services Viet Nam
 
 **Internship Position:** AWS Cloud Intern — First Cloud AI Journey
 
